@@ -66,10 +66,10 @@
       <!--<artifactId>microprofile-opentracing</artifactId>-->
     <!--</dependency>-->
 
-    <!--<dependency>-->
-      <!--<groupId>io.thorntail</groupId>-->
-      <!--<artifactId>microprofile-fault-tolerance</artifactId>-->
-    <!--</dependency>-->
+    <dependency>
+      <groupId>io.thorntail</groupId>
+      <artifactId>microprofile-fault-tolerance</artifactId>
+    </dependency>
     <!--<dependency>-->
       <!--<groupId>io.thorntail</groupId>-->
       <!--<artifactId>jaeger</artifactId>-->
