@@ -13,12 +13,10 @@ public class Processor {
 
     private Long totalProcessingTime = 0L;
 
-//    @Gauge(name = "totalProcessingTime", unit = "millis")
     public Long getTotalProcessingTime() {
         return totalProcessingTime;
     }
 
-//    @Timed
     public void process() {
         Random random = new Random();
         try {

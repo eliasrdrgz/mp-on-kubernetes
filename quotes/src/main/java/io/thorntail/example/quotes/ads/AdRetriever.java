@@ -1,8 +1,6 @@
 package io.thorntail.example.quotes.ads;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
-import org.eclipse.microprofile.faulttolerance.Fallback;
-import org.eclipse.microprofile.faulttolerance.Timeout;
 import org.eclipse.microprofile.rest.client.RestClientBuilder;
 
 import javax.annotation.PostConstruct;
@@ -31,8 +29,6 @@ public class AdRetriever {
                 .build(AdClient.class);
     }
 
-    @Timeout(500)
-    @Fallback(fallbackMethod = "mockAd")
     public Ad getAd() {
         return client.get();
     }
