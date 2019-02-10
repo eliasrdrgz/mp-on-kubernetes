@@ -18,3 +18,5 @@ The demo used http://minishift.io
 You have to be logged in to minishift before running the command above.
 
 [Click here to download slides for the accompanying presentation](https://github.com/michalszynkiewicz/mp-on-kubernetes/raw/master/EclipseCon:%20Cloud%20Native%20development%20with%20Eclipse%20Microprofile%20on%20Kubernetes.pdf)
+
+Recording of the presentation: https://www.youtube.com/watch?v=EJ-AsOCWWvk
